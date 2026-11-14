@@ -1,0 +1,16 @@
+[project]
+name = "protlig"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Tung", email = "tungvuduc@outlook.de" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "rdkit>=2026.9.2",
+]
+
+[build-system]
+requires = ["uv_build>=0.9.18,<0.10.0"]
+build-backend = "uv_build"
